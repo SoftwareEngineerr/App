@@ -6,6 +6,11 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -22,6 +27,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2aedf545-993a-4993-b08d-007d98feed02"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2aedf545-993a-4993-b08d-007d98feed02"
     }
   }
 }
